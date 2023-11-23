@@ -1,3 +1,4 @@
+// to provide zoom transition to images
 import { Directive, ElementRef, HostListener } from '@angular/core';
 
 @Directive({

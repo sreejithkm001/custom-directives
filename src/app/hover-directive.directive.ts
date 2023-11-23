@@ -1,3 +1,4 @@
+// to provide dynamic hover effect to html tags
 import { Directive, ElementRef, HostListener, Input } from '@angular/core';
 
 @Directive({

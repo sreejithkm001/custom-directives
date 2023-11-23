@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'testcase';
-  showTable: boolean = false;
+  showAuthor: boolean = false;
 
-  toggleTable() {
-    this.showTable = !this.showTable;}
+  toggleAuthor() {
+    this.showAuthor = !this.showAuthor;}
 }
