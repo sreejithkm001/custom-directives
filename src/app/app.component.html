@@ -1,0 +1,18 @@
+<nav class="navbar">
+  <li appBackground color="red" class="navbar__txt">Stuttgart, Germany</li>
+  <li class="navbar__title" appHoverDirective color="violet">Porsche</li>
+  <li appBackground color="green" class="navbar__txt">Ferdinand Porsche</li>
+</nav>
+<div class="image">
+  <img appTransitionDirective src="https://icarautoleasing.com/wp-content/uploads/2019/01/2021-Porsche-911.1-1024x768.png" alt=""
+    width="900px">
+  <div class="image__txt">
+    <h1 appHoverDirective color="grey">Porche 911 Turbo S</h1>
+    <h3>The Porsche 911 has 2 Petrol Engine on offer. The Petrol engine is 2981 cc and 3996 cc . It is available with
+      Automatic & Manual transmission.Depending upon the variant and fuel type the 911 has a mileage of 10.64 kmpl &
+      Ground clearance of 911 is 100mm. The 911 is a 4 seater 6 cylinder car and has length of 4572mm, width of 1900mm
+      and a wheelbase of 2457mm.</h3>
+  </div>
+</div>
+<button (click)="toggleTable()">{{ showTable ? 'Hide details' : 'Author details' }}</button><app-author
+  *ngIf="showTable"></app-author>

@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    border-bottom: 1px solid #222222;
+    &__txt{
+        font-family: 'Poppins', sans-serif;
+    }
+    &__title{
+        font-size: 100px;
+        font-family: 'Bruno Ace', cursive;
+        text-transform: uppercase;
+    }
+}
+
+li {
+    list-style-type: none;
+}
+
+.image{
+    display: flex;
+    height: 500px;
+    &__txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+button{
+    margin-left: 48%;
+    padding: 0.5%;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
